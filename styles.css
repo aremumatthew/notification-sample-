@@ -1,0 +1,145 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'plus jakarta san', sans-serif;
+}
+body{
+  width: 100%;
+  height: 100vh;
+  background-color: hsl(210, 60%, 98%) ;
+}
+.container{
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 17px;
+  padding: 20px 20px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+}
+.notification-div{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 14px;
+}
+.notification{
+  display: flex;
+}
+.notification-div h4{
+  color: hsl(219, 12%, 42%);
+  font-size: 12px;
+  margin-top: 10px;
+}
+.notification-div h2{
+  color: hsl(224, 21%, 14%);
+  font-size: 20px;
+  font-weight: 900;
+  margin-bottom: 10px;
+}
+.count{
+  background-color:  hsl(219, 87%, 46%);
+  padding: 3px 10px;
+  color:  hsl(0, 0%, 100%);
+  font-size: 11px;
+  border-radius: 7px;
+  margin-left: 10px;
+}
+.profile-div{
+  display:flex;
+  background-color:  hsl(205, 33%, 90%);
+  padding: 15px;
+  margin-bottom: 8px;
+  border-radius: 8px;
+}
+.read-profile-div{
+  display:flex;
+  background-color: hsl(0, 0%, 100%) ;
+  padding: 15px;
+  margin-bottom: 8px;
+  border-radius: 8px;
+}
+.profile-image{
+  width: 35px;
+  margin-right: 15px;
+}
+.profile-div strong{
+  color:hsl(219, 85%, 26%) ;
+  font-size: 14px;
+  word-spacing: normal;
+}
+.profile-div h4{
+  font-size: 12px;
+  color: hsl(219, 12%, 42%);
+  font-weight: 400;
+  line-height: 20px;
+  word-spacing: 3px;
+  margin-bottom: 5px;
+}
+.read-profile-div strong{
+  color: hsl(223, 12%, 30%);
+  font-size: 14px;
+  word-spacing: normal;
+}
+.read-profile-div h4{
+  font-size: 12px;
+  color: hsl(219, 12%, 42%);
+  font-weight: 400;
+  line-height: 20px;
+  word-spacing: 3px;
+  margin-bottom: 7px;
+}
+.read-profile-div h6{
+  color: hsl(219, 12%, 42%);
+}
+.profile-div h6{
+  color: hsl(219, 12%, 42%);
+}
+.read-profile-div p{
+  border-style: solid;
+  border-color: hsl(218, 16%, 66%);
+  color: hsl(219, 12%, 42%);
+  border-width: 1px;
+  border-radius: 6px;
+  padding: 13px 10px;
+  margin: 10px 0 0 0;
+  font-size: 14px;
+  line-height: 23px;
+}
+.box{
+  display:flex;
+  width: 100%;
+  justify-content: space-between;
+
+}
+.red-dot{
+  background-color: hsl(1, 90%, 64%) ;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  margin-left: 5px;
+  display: inline-block;
+}
+.cheese{
+  width: 30px;
+  margin-left: auto;
+}
+@media(max-width : 750px){
+  .container{
+    padding : 15px;
+  }
+  .notification-div h2{
+    color: hsl(224, 21%, 14%);
+    font-size: 16px;
+    font-weight: 900;
+    margin-bottom: 10px;
+  }
+}
+@media(max-width: 290px){
+  
+.notification-div{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 14px;
+}
+}
